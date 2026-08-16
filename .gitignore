@@ -1,0 +1,17 @@
+# dependencies / builds
+node_modules/
+*.tgz
+*.log
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# local test scratch dirs
+.harnesstest/
+.pushtest/
+.msgtest/
+.archtest/
+._tmp*

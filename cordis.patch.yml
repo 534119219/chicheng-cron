@@ -1,0 +1,9 @@
+# chicheng-cron bundle patch
+#
+# Mounts the cron scheduler plugin into the profile loader. `name` must
+# resolve from the profile node_modules (installed via `dsh plugin --profile
+# <name> add <this package>`), and the client half is served by the host at
+# /plugins/chicheng-cron/client.js.
+- insert:
+    - id: chicheng-cron
+      name: 'chicheng-cron'

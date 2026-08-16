@@ -1,0 +1,40 @@
+{
+  "name": "chicheng-cron",
+  "version": "0.1.0",
+  "description": "dsh 定时任务插件：在左侧栏“新会话”下方提供“定时任务”入口，支持 cron 定时执行 shell / python / nodejs 脚本、skills 与自定义 agent 任务，可对接 chicheng-push 与 messaging-core 推送通知、成功后自动归档会话，移动端适配",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "cron",
+    "scheduler",
+    "scheduled-tasks",
+    "定时任务"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/534119219/chicheng-cron.git"
+  },
+  "homepage": "https://github.com/534119219/chicheng-cron",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT"
+}
