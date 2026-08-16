@@ -1,0 +1,14 @@
+{
+  "name": "磁盘临时文件清理",
+  "type": "shell",
+  "cron": "0 3 * * 0",
+  "enabled": true,
+  "script": "powershell -NoProfile -Command \"Remove-Item -Path $env:TEMP\\* -Recurse -Force -ErrorAction SilentlyContinue; Write-Output 'temp cleaned'\"",
+  "cwd": "",
+  "timeoutMs": 120000,
+  "pushEnabled": true,
+  "pushChannel": "",
+  "pushTitle": "清理任务完成",
+  "pushContent": "任务「{name}」执行完成：{status}（exit {exitCode}）",
+  "archiveOnSuccess": false
+}

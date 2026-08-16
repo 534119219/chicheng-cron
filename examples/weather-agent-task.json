@@ -1,0 +1,15 @@
+{
+  "name": "查天气",
+  "type": "agent",
+  "cron": "30 7 * * *",
+  "enabled": true,
+  "prompt": "查询北京今天的天气（温度、天气状况、风力、空气质量），并给一句穿衣/出行建议。回答控制在 300 字以内。",
+  "cwd": "",
+  "timeoutMs": 300000,
+  "groupSessions": true,
+  "pushEnabled": true,
+  "pushChannel": "ch-21b73e9f",
+  "pushTitle": "天气播报 {time}",
+  "pushContent": "",
+  "archiveOnSuccess": false
+}
