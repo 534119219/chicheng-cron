@@ -19,10 +19,10 @@ DeepSeek Harness（dsh web）的定时任务插件：在左侧栏 **「新会话
 
 ## 截图
 
-| | |
+| 侧栏入口（展开 + 收缩态） | 任务与推送设置 |
 |---|---|
-| 侧栏入口（展开 + 收缩） | 推送与任务设置 | 执行历史与输出弹窗 |
-| `assets/sidebar-entry.png` | `assets/settings-1.png` `assets/settings-2.png` | `assets/output-popup.png` |
+| ![侧栏入口](assets/sidebar-entry.png) | ![推送与任务设置 1](assets/settings-1.png) |
+| ![推送与任务设置 2](assets/settings-2.png) | ![执行历史与输出弹窗](assets/output-popup.png) |
 
 ## 安装
 
