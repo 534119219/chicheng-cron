@@ -22,21 +22,21 @@ DeepSeek Harness（dsh web）的定时任务插件：在左侧栏 **「新会话
 <table>
   <tr>
     <td align="center">
-      <img src="assets/sidebar-entry.png" width="320" alt="侧栏入口（展开 + 收缩态）"><br>
+      <img src="assets/sidebar-entry.png" width="240" alt="侧栏入口（展开 / 收缩态）"><br>
       <sub>侧栏入口（展开 / 收缩态）</sub>
     </td>
     <td align="center">
-      <img src="assets/settings-1.png" width="320" alt="任务与推送设置 1"><br>
+      <img src="assets/settings-1.png" width="240" alt="任务与推送设置 1"><br>
       <sub>任务与推送设置 1</sub>
+    </td>
+    <td align="center">
+      <img src="assets/settings-2.png" width="240" alt="任务与推送设置 2"><br>
+      <sub>任务与推送设置 2</sub>
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <img src="assets/settings-2.png" width="320" alt="任务与推送设置 2"><br>
-      <sub>任务与推送设置 2</sub>
-    </td>
-    <td align="center">
-      <img src="assets/output-popup.png" width="320" alt="执行历史与输出弹窗"><br>
+    <td colspan="3" align="center">
+      <img src="assets/output-popup.png" width="240" alt="执行历史与输出弹窗"><br>
       <sub>执行历史与输出弹窗</sub>
     </td>
   </tr>
