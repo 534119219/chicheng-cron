@@ -1,6 +1,6 @@
 {
   "name": "chicheng-cron",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "dsh 定时任务插件：在左侧栏“新会话”下方提供“定时任务”入口，支持 cron 定时执行 shell / python / nodejs 脚本、skills 与自定义 agent 任务，可对接 chicheng-push 与 messaging-core 推送通知、成功后自动归档会话，移动端适配",
   "keywords": [
     "dsh",
