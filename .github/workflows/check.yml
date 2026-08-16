@@ -1,0 +1,20 @@
+name: check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Host half syntax
+        run: node --check lib/index.js
+      - name: Client half syntax
+        run: node --check lib/client.js
+      - name: Manifest JSON validity
+        run: node -e "JSON.parse(require('fs').readFileSync('package.json','utf8'))"
